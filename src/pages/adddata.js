@@ -37,7 +37,7 @@ const AddData = () => {
         }
 
         postData().then((data)=>{
-            router.push('/viewdata')
+            router.push('/')
             console.log("addedData:",data)
         })
     };
