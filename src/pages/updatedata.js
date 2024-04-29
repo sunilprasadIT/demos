@@ -39,7 +39,7 @@ const UpdateData = () => {
         }
 
         postData().then((data)=>{
-            router.push('/viewdata')
+            router.push('/')
             console.log("updatedData:",data)
         })
 
